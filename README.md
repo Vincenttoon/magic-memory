@@ -61,6 +61,3 @@ By: [Vincent Toon](https://github.com/Vincenttoon)
 
 Questions, comments, or concerns? Please Email me at:
 * vincenttoon22@gmail.com
-
-
-- `.sort()`
