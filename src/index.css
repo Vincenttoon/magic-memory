@@ -6,6 +6,16 @@ body {
   margin: 0;
   font-size: 1.5em;
   text-align: center;
-  background: #1b1523;
+  background: rgb(33, 5, 61);
+  background: radial-gradient(
+    circle,
+    rgba(33, 5, 61, 1) 0%,
+    rgba(70, 23, 111, 1) 49%,
+    rgba(38, 4, 56, 1) 100%
+  );
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
 }

@@ -1,9 +1,12 @@
 .card {
     position: relative;
+    margin: 10px;
+    box-shadow: 1px 1px 1px #000;
 }
 
 .card img {
-    width: 100%;
+    width: 25vh;
+    height: 200px;
     display: block;
     border: 2px solid #fff;
     border-radius: 6px;
@@ -32,3 +35,13 @@
     transform: rotateY(90deg);
     transition-delay: 0.2s;
 }
+
+@media (max-width: 868px) {
+    .card {
+        margin: 5px;
+    }
+    .card img {
+      width: 12vh;
+      height: 100px;
+    }
+  }
