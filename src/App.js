@@ -24,8 +24,8 @@ function App() {
       .sort(() => Math.random() - 0.5)
       .map((card) => ({ ...card, id: Math.random() }));
 
-      setChoiceOne(null)
-      setChoiceTwo(null)
+    setChoiceOne(null);
+    setChoiceTwo(null);
     setCards(shuffledCards);
     setTurns(0);
   };
@@ -67,7 +67,7 @@ function App() {
 
   useEffect(() => {
     shuffleCards();
-  }, [])
+  }, []);
 
   return (
     <div className="App">
