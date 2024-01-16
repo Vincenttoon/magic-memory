@@ -77,6 +77,18 @@ button:hover {
   background-color: #eec1fe;
 }
 
+.game-box {
+  background-color: #eec1fe;
+}
+
+.game-box:active {
+  background-color: #f1fa75;
+}
+
+.game-box:hover {
+  background-color: #f1fa75;
+}
+
 .card-grid {
   margin-top: 20px; /* Adjust margin as needed */
   display: flex;
