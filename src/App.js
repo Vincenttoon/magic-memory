@@ -9,6 +9,8 @@ const cardImages = [
   { src: "/img/green.png", matched: false },
   { src: "/img/orange.png", matched: false },
   { src: "/img/heart.png", matched: false },
+  { src: "/img/shield.png", matched: false },
+  { src: "/img/poison.png", matched: false },
 ];
 
 function App() {
