@@ -52,6 +52,11 @@ By: [Vincent Toon](https://github.com/Vincenttoon)
 - Use of `.sort()`, which I haven't used in a while.
 - More practice with `transform`, `translate`, `transition`, `touch-action` in CSS3
 
+## Future Improvements
+
+- Alert user they have won and restart the game
+- Change repo name when Game Box is completed
+
 ## Contributors
 
 * Potions from [Kylaksun](https://www.shutterstock.com/g/klyaksun) on Shutterstock.
